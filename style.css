@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;   
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.promo {
+    height: 900px;
+    background: url(./img/promo.png) no-repeat center / cover;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+}
+
+.menu a {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.icons-menu {
+    display: none;
+}
+
+.icons {
+    display: flex;
+    gap: 30px;
+}
+
+.promo_text {
+    padding-top: 329px;
+}
+
+.promo h1  {
+    color: #FFF;
+    text-align: center;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.promo h1::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 1px;
+    flex-shrink: 0;
+    margin: 20px auto;
+    background-color: #FFFF;
+}
+
+.promo a {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.category {
+    padding-top: 100px;
+}
+
+.category h2 {
+    color: #252525;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-bottom: 50px;
+}
+
+.box  {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.item {
+    position: relative;
+}
+
+.item img {
+    width: 100%;
+}
+
+.item h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(224, 190, 162, 0.75);
+    backdrop-filter: blur(3px);
+    padding: 8px ;
+}
+
+.subscreaprions {
+    margin-top: 100px;
+}
+
+.form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form h2 {
+    color: #252525;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    flex-shrink: 0;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 0.5px solid rgb(37 37 37 / 31%);
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    border: 0;
+    gap: 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+    background: #E0BEA2;
+}
+
+.form p {
+    margin-top: 20px;
+    color: #252525;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.footer {
+    margin-top: 100px;
+}
+
+.footer_box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.f-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px 47px;
+}
+
+.f-item h3 {
+    color: #252525;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+
+.f-item a {
+    color: #252525;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.messengers {
+    display: flex;
+    gap: 10px;
+}
